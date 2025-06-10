@@ -1,13 +1,18 @@
-import React from 'react'
+import Loginpage from "./Components/Login/Loginpage";
+import Signuppage from "./Components/Signup/Signuppage";
 import Content from './components/Content/Content'
-
-const App = () => {
+import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+function App() {
   return (
     <>
-    <Content/>
-      
+     <Loginpage />
+     <Signuppage />
+      <Navbar/>
+     <Content/>
     </>
-  )
+   );
 }
 
 export default App
