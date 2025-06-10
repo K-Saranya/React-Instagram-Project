@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #fafafa;
+}
+
+.signup-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.signup-box {
+  width: 280px;
+  height: 540px;
+  padding: 40px;
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+  text-align: center;
+}
+
+.signup-title img {
+  width: 200px;
+  height: 50px;
+  margin-top: 0px;
+}
+
+.Quote {
+  margin-top: 0;
+  color: rgb(92, 92, 92);
+}
+
+.fbloginbtn {
+  width: 300px;
+  padding: 10px;
+  background-color: #0095f6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.signupbtn {
+  width: 300px;
+  padding: 10px;
+  background-color: #58b3f0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+}
+
+.fbloginbtn :hover {
+  background-color: #007ac1;
+}
+
+.or {
+  margin: 0px;
+  color: rgb(60, 60, 60);
+  font-size: 13px;
+}
+
+.signup-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background: #fafafa;
+}
+
+.learn-more {
+  font-size: 13px;
+  color: rgb(126, 126, 126);
+  text-decoration: none;
+}
+
+.login-link {
+  width: 320px;
+  height: 25px;
+  margin-top: 15px;
+  font-size: 14px;
+  color: rgb(34, 34, 34);
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.app {
+  width: 320px;
+  height: 100px;
+  text-align: center;
+}
+
+.app p {
+  color: rgb(34, 34, 34);
+}
+
+.downloadPic {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.downloadPic img {
+  width: 140px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  column-gap: 15px;
+  font-size: 13px;
+  color: rgb(126, 126, 126);
+}
+
+.links :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.pageEnd {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  color: rgb(126, 126, 126);
+  margin-bottom: 30px;
+}
+
+.pageEnd :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
