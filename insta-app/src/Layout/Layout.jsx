@@ -1,6 +1,7 @@
 import React from "react";
 import Content from "../components/Content/Content";
 import Navbar from "../components/Navbar/Navbar";
+import "./Layout.css";
 
 const Layout = () => {
   return (
